@@ -82,7 +82,7 @@
                         </div>
                     </form>
                 </nav>
-                <!-- <div class="card" style="margin:20px;">
+                <div class="card" style="margin:20px;">
                     <div class="card-header">
                         <h4>Edit essay</h4>
                     </div>
@@ -91,16 +91,16 @@
                             {{ csrf_field() }}
                             <label for="">Name</label><br>
                             <input value="{{$data->name}}" type="text" name="name" id="" class="form-control">
-                            <label for="">Content</label><br>
-                            <input value="{{$data->content}}" type="text" name="content" class="form-control">
-                            <label for="">Time start</label><br>
-                            <input value="{{$data->timestart}}" type="datetime-local" name="timestart" id="" class="form-control">
-                            <label for="">Time end</label><br>
-                            <input value="{{$data->timeend}}" type="datetime-local" name="timeend" id="" class="form-control"><br>
+                            <label for="">Address</label><br>
+                            <input value="{{$data->address}}" type="text" name="address" class="form-control">
+                            <label for="">Article title</label><br>
+                            <input value="{{$data->article_title}}" type="text" name="article_title" id="" class="form-control">
+                            <label for="">Essay</label><br>
+                            <input value="{{$data->essay}}" type="text" name="essay" id="" class="form-control"><br>
                             <button type="submit" class="btn btn-primary">Save</button>
                         </form>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>

@@ -54,6 +54,7 @@
                     <!-- <i class="fas fa-laugh-wink"></i> -->
                 </div>
                 <div style="color:#000" class="sidebar-brand-text mx-3">Essay Edusystem </div>
+                ads
             </a>
 
             <!-- Divider -->

@@ -1,7 +1,7 @@
 <table class="table table-hover">
     <thead class="table-primary">
         <tr>
-            <th></th>
+            
             <th>ID</th>
             <th>Name</th>
             <th>Address</th>
@@ -14,8 +14,8 @@
     <tbody class="alldata">
         @foreach ($data as $item)
         <tr>
-            <td class="text-center align-middle"><input name='id[]' type="checkbox" id="checkItem" 
-                value="{{$item->id}}">
+            <!-- <td class="text-center align-middle"><input name='id[]' type="checkbox" id="checkItem" 
+                value="{{$item->id}}"> -->
             <td class="align-middle">{{$item->id}}</td>
             <td class="align-middle">{{$item->name}}</td>
             <td class="align-middle">{{$item->address}}</td>
